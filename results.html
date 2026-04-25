@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Results - SchoolScout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>SchoolScout</h1>
+  <a href="compare.html">Compare</a>
+</header>
+
+<div class="container">
+  <aside class="filters">
+    <h3>Filters</h3>
+
+```
+<label>Type</label>
+<select id="typeFilter">
+  <option value="">All</option>
+  <option>Public</option>
+  <option>Private</option>
+  <option>Daycare</option>
+</select>
+
+<label>Grade</label>
+<select id="gradeFilter">
+  <option value="">All</option>
+  <option>Elementary</option>
+  <option>Middle</option>
+  <option>High</option>
+</select>
+
+<label>Rating</label>
+<select id="ratingFilter">
+  <option value="">All</option>
+  <option value="4">4+ Stars</option>
+  <option value="3">3+ Stars</option>
+</select>
+
+<button onclick="filterSchools()">Apply</button>
+```
+
+  </aside>
+
+  <main id="results"></main>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

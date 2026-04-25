@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SchoolScout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>SchoolScout</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="compare.html">Compare</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Find the Best Schools Near You</h2>
+  <input type="text" id="searchInput" placeholder="Enter city or ZIP (ex: Cumming, GA)">
+  <button onclick="goToResults()">Search</button>
+</section>
+
+<section class="featured">
+  <h3>Top Rated in Georgia</h3>
+  <div id="featuredSchools"></div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
